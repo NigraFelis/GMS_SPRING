@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<jsp:include page="../common/common_head.jsp"/>
+<%-- <jsp:include page="../common/common_head.jsp"/> --%>
 <div id="container" style="margin-top:100px">
 	<form id="login_box" name="login_box" > 
 		<img src="<%=application.getContextPath()%>/resources/img/login.jpg" style="width:400px;" alt="" /><br />

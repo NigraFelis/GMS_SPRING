@@ -7,19 +7,19 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MemberController {
 	@RequestMapping("/add")
 	public String add() {
-		return"member/member_add";
+		return"public:member/member_add.tiles";
 	}
 	@RequestMapping("/list")
 	public String list() {
-		return"member/member_list";
+		return"public:member/member_list.tiles";
 	}
 	@RequestMapping("/detail")
 	public String detail() {
-		return"member/member_detail";
+		return"public:member/member_detail.tiles";
 	}
 	@RequestMapping("/delete")
 	public String delete() {
-		return"member/member_delete";
+		return"public:member/member_delete.tiles";
 	}
 
 }

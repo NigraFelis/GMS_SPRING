@@ -10,8 +10,9 @@ app.path=(function(){  //최상위 브라우저 종료시 까지 저장되는곳
       onCreate();
    };
    var onCreate=function(){
+	   alert('js진입');
 	   setContentView();
-	   location.href=ctx()+"/main";
+	   location.href=ctx()+"/auth/login_view";
    };
    var setContentView=function(){
 	   alert('app init실행 하면서 ctx설정');

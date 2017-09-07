@@ -7,18 +7,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class BoardController {
 	@RequestMapping("/write")
 	public String write() {
-		return"board/board_write";
+		return"public:board/board_write.tiles";
 	}
 	@RequestMapping("/list")
 	public String list() {
-		return"board/board_list";
+		return"public:board/board_list.tiles";
 	}
 	@RequestMapping("/detail")
 	public String detail() {
-		return"board/board_detail";
+		return"public:board/board_detail.tiles";
 	}
 	@RequestMapping("/delete")
 	public String main() {
-		return"board/board_delete";
+		return"public:board/board_delete.tiles";
 	}
 }

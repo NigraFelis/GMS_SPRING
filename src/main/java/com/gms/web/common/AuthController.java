@@ -13,14 +13,14 @@ public class AuthController {
 	@RequestMapping("/login_view")
 	public String goLogin() {
 		//logger.info("AuthController Enter");
-		return "common/login";
+		return "public:common/login.tiles";
 	}
 	@RequestMapping("/main")
 	public String login() {
-		return"common/main";
+		return "public:common/main.tiles";
 	}
 	@RequestMapping("/logout")
 	public String main() {
-		return"common/login";
+		return "public:common/login.tiles";
 	}
 }

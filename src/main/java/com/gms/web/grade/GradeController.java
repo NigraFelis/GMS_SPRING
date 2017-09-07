@@ -8,18 +8,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class GradeController {
 	@RequestMapping("/add")
 	public String add() {
-		return"grade/grade_add";
+		return"public:grade/grade_add.tiles";
 	}
 	@RequestMapping("/list")
 	public String list() {
-		return"grade/grade_list";
+		return"public:grade/grade_list.tiles";
 	}
 	@RequestMapping("/detail")
 	public String detail() {
-		return"grade/grade_detail";
+		return"public:grade/grade_detail.tiles";
 	}
 	@RequestMapping("/delete")
 	public String delete() {
-		return"grade/grade_delete";
+		return"public:grade/grade_delete.tiles";
 	}
 }
